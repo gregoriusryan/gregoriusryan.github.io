@@ -1,0 +1,237 @@
+@import url('http://fonts.cdnfonts.com/css/sf-pro-display');
+html, body
+{
+	font-size: 20px;
+	color: #dfdfdf;
+	background-color: white;
+    font-family: 'SF Pro Display', sans-serif;
+}
+#imageprofile
+{
+    width: 250px; 
+    height: 300px;
+}
+
+.name p
+{
+    font-size: 35px;
+}
+.text 
+{
+    font-size:20px;
+}
+
+p 
+{
+    display: inline-block;
+    vertical-align: top;
+    margin: 0;
+}
+
+.word 
+{
+  position: absolute;
+  width: 220px;
+  opacity: 0;
+}
+
+.letter
+{
+  display: inline-block;
+  position: relative;
+  float: left;
+  transform: translateZ(25px);
+  transform-origin: 50% 50% 25px;
+}
+
+.letter.out 
+{
+  transform: rotateX(90deg);
+  transition: transform 0.32s cubic-whitebezier(0.55, 0.055, 0.675, 0.19);
+}
+
+.letter.behind 
+{
+  transform: rotateX(-90deg);
+}
+
+.letter.in 
+{
+  transform: rotateX(0deg);
+  transition: transform 0.38s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+#home
+{
+    align-items:center;
+    justify-content:center;
+}
+.name
+{
+    font-size: 15px;
+    color: white;
+}
+.icon 
+{
+    color: white;
+}
+
+.nav-left
+{
+    font-size: 20px;
+}
+a 
+{
+    color: #060647;
+}
+a:hover 
+{
+    color: #060647;
+}
+.nav
+{
+    align-items: center;
+    color: black;
+}
+.intro
+{
+    font-size: 20px;
+}
+section
+{
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+}
+
+.section-1 
+{
+	background-color: #110840;
+}
+
+.section-2
+{
+    background-color: rgb(3, 3, 47);
+}
+
+.section-11{
+	background-color: #05053b;
+}
+
+.section-3 
+{
+	background-color: #090523;
+}
+
+.section-4 
+{
+	background-color: #050216;
+    color: white;
+}
+#cl
+{
+    background-color:white;
+}
+
+a.nav-item 
+{
+	color: #000000;
+}
+
+a.nav-item:hover 
+{
+	color: #0808b0;;
+}
+
+.avatar
+{
+	height: 400px;
+	border-radius: 20%;
+}
+
+.intro-description
+{
+	padding-top: 1rem;
+}
+
+.social-container img
+{
+	max-width:100%;
+	max-height:175px;
+	margin-bottom:15px;
+}
+
+.project-figure
+ {
+	margin: 0 auto 1rem auto;
+	max-height: 1000px;
+	max-width: 256px;
+}
+
+.project-text {
+	text-align: justify;
+}
+
+.box 
+{
+	background-color: transparent;
+	border: 2px solid rgba(7, 59, 79, 0.5);
+}
+
+.title 
+{
+	color: #fff;
+	text-align: left;
+	margin-bottom: 2rem;
+}
+
+.intro
+{
+	text-align: center;
+	width: 80%;
+	margin: 0 auto;
+    font-size: 30px;
+}
+
+.void-background 
+{
+	background-color: transparent; 
+}
+
+
+@media screen and (max-width: 768px) {
+    .text 
+    {
+        font-size:15px;
+    }
+	.nav-menu 
+    {
+		background-color: white;
+	}
+
+	.nav-toggle:hover 
+    {
+		background-color: transparent;
+	}
+
+	.nav-toggle span 
+    {
+		background-color: black;
+	}
+
+	.nav-toggle span:hover 
+    {
+		background-color: #fff;
+	}
+    html, body
+    {
+        font-size:15px;
+        color: #dfdfdf;
+        background-color: white;
+        font-family: 'SF Pro Display', sans-serif;
+    }
+    #imageprofile
+    {
+        width: 250px; 
+        height: 300px;
+    }
+}
