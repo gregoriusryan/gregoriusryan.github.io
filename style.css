@@ -1,10 +1,17 @@
-@import url('http://fonts.cdnfonts.com/css/sf-pro-display');
+@font-face 
+{
+    font-family: 'sf_pro_displayregular';
+    src: url('fontsfree-net-sfprodisplay-regular-webfont.woff2') format('woff2'),
+         url('fontsfree-net-sfprodisplay-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 html, body
 {
+    font-family:'sf_pro_displayregular';
 	font-size: 20px;
 	color: #dfdfdf;
 	background-color: white;
-    font-family: 'SF Pro Display';
 }
 .namee
 {
