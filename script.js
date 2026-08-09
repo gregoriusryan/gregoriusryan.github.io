@@ -116,7 +116,7 @@ const pipelineSvg = `
 
   <rect x="338" y="80" width="130" height="70" rx="6" class="node-box"/>
   <text x="356" y="108" class="node-label">PostgreSQL</text>
-  <text x="356" y="124" class="node-sub">AWS RDS / Redshift</text>
+  <text x="356" y="124" class="node-sub">AWS</text>
   <text x="356" y="138" class="tag">-40% cost</text>
 
   <path d="M142,115 L172,115" class="flow-line" marker-end="url(#arrow)"/>
