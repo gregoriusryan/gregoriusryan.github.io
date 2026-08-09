@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gregorius Ryan — Database Administrator</title>
+<meta name="description" content="Gregorius Ryan — Database Administrator specializing in enterprise database infrastructure, cloud migrations, and high-volume database administration.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="grid-overlay" aria-hidden="true"></div>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <nav class="nav">
+    <a href="#top" class="nav__logo">GR<span class="cursor-blink">_</span></a>
+    <button class="nav__toggle" id="navToggle" aria-expanded="false" aria-controls="navLinks" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav__links" id="navLinks">
+      <li><a href="#summary"><span class="nav__index">01</span>summary</a></li>
+      <li><a href="#schema"><span class="nav__index">02</span>skills</a></li>
+      <li><a href="#projects"><span class="nav__index">03</span>projects</a></li>
+      <li><a href="#experience"><span class="nav__index">04</span>experience</a></li>
+      <li><a href="#education"><span class="nav__index">05</span>education</a></li>
+      <li><a href="#contact" class="nav__cta">contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main id="main">
+
+  <!-- HERO -->
+  <section class="hero" id="top">
+    <div class="hero__inner">
+      <div class="terminal" role="img" aria-label="Terminal window introducing Gregorius Ryan, Database Administrator">
+        <div class="terminal__bar">
+          <div class="terminal__dots"><span></span><span></span><span></span></div>
+          <div class="terminal__title">psql — production — 80x24</div>
+        </div>
+        <div class="terminal__body" id="terminalBody">
+          <!-- populated by script.js typing effect -->
+        </div>
+      </div>
+
+      <div class="hero__meta">
+        <p class="eyebrow">Tangerang / Jakarta, Indonesia</p>
+        <h1 class="hero__title">Gregorius Ryan</h1>
+        <p class="hero__role">Database Administrator</p>
+        <p class="hero__desc">I keep enterprise data online, fast, and where it's supposed to be — across PostgreSQL, Oracle, and MySQL, on-prem and in the cloud.</p>
+        <div class="hero__links">
+          <a href="mailto:gregoriusryan45@gmail.com" class="btn btn--primary">gregoriusryan45@gmail.com</a>
+          <a href="https://linkedin.com/in/gregorius-ryan-92525b1b8" class="btn btn--ghost" target="_blank" rel="noopener">LinkedIn ↗</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="stat-row" aria-label="Key figures">
+      <div class="stat"><span class="stat__num" data-count="30" data-suffix="+">0</span><span class="stat__label">databases managed</span></div>
+      <div class="stat"><span class="stat__num" data-count="7" data-suffix="+ TB">0</span><span class="stat__label">warehouse migrated</span></div>
+      <div class="stat"><span class="stat__num" data-count="40" data-suffix="%">0</span><span class="stat__label">cloud cost reduced</span></div>
+      <div class="stat"><span class="stat__num" data-count="99.9" data-suffix="%">0</span><span class="stat__label">database availability</span></div>
+    </div>
+  </section>
+
+  <!-- SUMMARY -->
+  <section class="section" id="summary">
+    <div class="section__head">
+      <span class="section__index">01</span>
+      <h2 class="section__title">summary</h2>
+    </div>
+    <p class="lede">
+      Results-driven Database Administrator with a Master's degree in Computer Science and proven expertise in
+      enterprise database infrastructure, large-scale cloud migrations, and high-volume database administration.
+      Demonstrated success managing over 30 production and development databases across PostgreSQL, Oracle, and
+      MySQL environments — including heterogeneous migrations of multi-terabyte data warehouses from on-premise
+      Oracle to AWS PostgreSQL, and complex ERP (Oracle EBS Finance) migrations across multiple legal entities.
+    </p>
+  </section>
+
+  <!-- SKILLS AS SCHEMA -->
+  <section class="section" id="schema">
+    <div class="section__head">
+      <span class="section__index">02</span>
+      <h2 class="section__title">skills</h2>
+      <p class="section__sub">\d skills — four tables, each a working column of the stack</p>
+    </div>
+
+    <div class="schema-grid">
+
+      <div class="db-table">
+        <div class="db-table__head">
+          <span class="db-table__name">databases_&amp;_warehousing</span>
+          <span class="db-table__count">6 rows</span>
+        </div>
+        <ul class="db-table__rows">
+          <li><span class="db-table__key">PK</span>PostgreSQL</li>
+          <li><span class="db-table__key">·</span>Oracle Database 11g / 12c</li>
+          <li><span class="db-table__key">·</span>MySQL</li>
+          <li><span class="db-table__key">·</span>Oracle EBS Finance</li>
+          <li><span class="db-table__key">·</span>AWS Redshift / RDS</li>
+          <li><span class="db-table__key">·</span>Data Warehousing &amp; ETL</li>
+        </ul>
+      </div>
+
+      <div class="db-table">
+        <div class="db-table__head">
+          <span class="db-table__name">cloud_&amp;_infrastructure</span>
+          <span class="db-table__count">5 rows</span>
+        </div>
+        <ul class="db-table__rows">
+          <li><span class="db-table__key">PK</span>AWS — EC2, RDS, S3, DMS</li>
+          <li><span class="db-table__key">·</span>Oracle Linux</li>
+          <li><span class="db-table__key">·</span>Red Hat Enterprise Linux</li>
+          <li><span class="db-table__key">·</span>Virtualization — VirtualBox, Proxmox</li>
+          <li><span class="db-table__key">·</span>RDP Configuration</li>
+        </ul>
+      </div>
+
+      <div class="db-table">
+        <div class="db-table__head">
+          <span class="db-table__name">migration_&amp;_performance</span>
+          <span class="db-table__count">5 rows</span>
+        </div>
+        <ul class="db-table__rows">
+          <li><span class="db-table__key">PK</span>Heterogeneous DB Migration</li>
+          <li><span class="db-table__key">·</span>Oracle → PostgreSQL Conversion</li>
+          <li><span class="db-table__key">·</span>Performance Tuning</li>
+          <li><span class="db-table__key">·</span>High Availability</li>
+          <li><span class="db-table__key">·</span>Disaster Recovery</li>
+        </ul>
+      </div>
+
+      <div class="db-table">
+        <div class="db-table__head">
+          <span class="db-table__name">programming_&amp;_analytics</span>
+          <span class="db-table__count">5 rows</span>
+        </div>
+        <ul class="db-table__rows">
+          <li><span class="db-table__key">PK</span>SQL &amp; PL/SQL</li>
+          <li><span class="db-table__key">·</span>Python</li>
+          <li><span class="db-table__key">·</span>Data Pipelines</li>
+          <li><span class="db-table__key">·</span>Machine Learning — SMOTE, NLP</li>
+          <li><span class="db-table__key">·</span>Enterprise Monitoring Tools</li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- PROJECTS / MIGRATION PIPELINE -->
+  <section class="section" id="projects">
+    <div class="section__head">
+      <span class="section__index">03</span>
+      <h2 class="section__title">key infrastructure &amp; migration projects</h2>
+    </div>
+
+    <article class="project">
+      <div class="project__text">
+        <h3 class="project__title">Enterprise Data Warehouse Cloud Migration</h3>
+        <p class="project__stack">AWS · PostgreSQL · Oracle</p>
+        <p class="project__desc">
+          Executed the end-to-end migration of a 7+ terabyte data warehouse from legacy on-premise Oracle
+          infrastructure to AWS Cloud. Converted complex legacy schemas and ETL pipelines into optimized
+          PostgreSQL syntax, cutting cloud infrastructure costs by 40% and materially improving query latency.
+        </p>
+        <div class="project__figures">
+          <div><strong>7+ TB</strong><span>data migrated</span></div>
+          <div><strong>40%</strong><span>cost reduction</span></div>
+        </div>
+      </div>
+      <div class="project__diagram" id="pipelineDiagram" aria-label="Diagram of the data warehouse migration pipeline from on-premise Oracle through AWS DMS into AWS PostgreSQL"></div>
+    </article>
+
+    <article class="project project--reverse">
+      <div class="project__text">
+        <h3 class="project__title">Oracle EBS Finance Multi-Entity Migration</h3>
+        <p class="project__stack">Oracle E-Business Suite · Enterprise Migration</p>
+        <p class="project__desc">
+          Led and executed the migration of six core Oracle EBS Financials databases, each representing a
+          distinct PT corporate entity. Delivered zero data loss and strict compliance with corporate financial
+          reporting standards, with minimal downtime through every cutover.
+        </p>
+        <div class="project__figures">
+          <div><strong>6</strong><span>legal entities</span></div>
+          <div><strong>0</strong><span>data loss</span></div>
+        </div>
+      </div>
+      <div class="project__diagram" id="ebsDiagram" aria-label="Diagram showing one Oracle EBS Financials source migrating into six corporate entity databases"></div>
+    </article>
+  </section>
+
+  <!-- EXPERIENCE AS LOG -->
+  <section class="section" id="experience">
+    <div class="section__head">
+      <span class="section__index">04</span>
+      <h2 class="section__title">experience</h2>
+      <p class="section__sub">git log --stat</p>
+    </div>
+
+    <div class="log-entry">
+      <div class="log-entry__rail">
+        <span class="log-entry__dot"></span>
+      </div>
+      <div class="log-entry__body">
+        <p class="log-entry__meta">Aug 2024 — Present · Jakarta, Indonesia</p>
+        <h3 class="log-entry__role">Supervisor — Database Administrator</h3>
+        <p class="log-entry__org">PT Indomarco Prismatama (Indomaret Group)</p>
+        <ul class="log-entry__list">
+          <li><strong>Database fleet management</strong> — administer, monitor, and maintain 30+ production and development databases across PostgreSQL, Oracle, and MySQL, serving high-concurrency enterprise applications.</li>
+          <li><strong>Performance tuning</strong> — tune PostgreSQL and Oracle parameters (work_mem, shared_buffers, buffer cache, SGA/PGA) to improve query speed and system stability.</li>
+          <li><strong>Disaster recovery &amp; backup</strong> — maintain automated backup schedules and run recovery testing, including Oracle 11g Enterprise Edition recovery on Oracle Linux 8.x.</li>
+          <li><strong>Infrastructure maintenance</strong> — manage user permissions, security hardening, and storage allocation, holding 99.9% database availability.</li>
+          <li><strong>Training &amp; documentation</strong> — deliver technical workshops with the Education &amp; Training Department, onboard junior staff, and author operational SOP manuals.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section class="section" id="education">
+    <div class="section__head">
+      <span class="section__index">05</span>
+      <h2 class="section__title">education</h2>
+    </div>
+
+    <div class="edu-grid">
+      <div class="edu-card">
+        <p class="edu-card__degree">Master of Computer Science <span class="edu-card__abbr">(M.Comp.Sc. / MTI)</span></p>
+        <p class="edu-card__school">Bina Nusantara University (BINUS), Jakarta</p>
+        <p class="edu-card__detail">GPA 3.97 — Summa Cum Laude</p>
+        <p class="edu-card__detail">Specialization: Machine Learning, Database Systems, Data Engineering, Natural Language Processing</p>
+      </div>
+      <div class="edu-card">
+        <p class="edu-card__degree">Bachelor of Computer Science <span class="edu-card__abbr">(S.Kom.)</span></p>
+        <p class="edu-card__school">Bina Nusantara University (BINUS), Jakarta</p>
+        <p class="edu-card__detail">GPA 3.87</p>
+      </div>
+    </div>
+
+    <div class="pub-block">
+      <h3 class="pub-block__title">publications &amp; research</h3>
+      <ul class="pub-list">
+        <li>
+          <span class="pub-list__role">Author</span>
+          <span class="pub-list__text">MBTI Personality Prediction Using Machine Learning and SMOTE for Balancing Data Based on Statement Sentences — Information Journal (MDPI). Machine learning frameworks using SMOTE to address class imbalance in text-based personality classification.</span>
+        </li>
+        <li>
+          <span class="pub-list__role">Co-Author</span>
+          <span class="pub-list__text">Face Mask Detection for COVID-19 Prevention using Computer Vision — a detection system built with Computer Vision and Convolutional Neural Networks (CNN).</span>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section section--contact" id="contact">
+    <div class="contact-panel">
+      <div class="contact-panel__prompt">postgres=# <span class="cursor-blink">SELECT * FROM opportunities;</span></div>
+      <h2 class="contact-panel__title">Let's talk about your data.</h2>
+      <p class="contact-panel__desc">Open to database administration, cloud migration, and infrastructure roles.</p>
+      <div class="hero__links">
+        <a href="mailto:gregoriusryan45@gmail.com" class="btn btn--primary">Email me</a>
+        <a href="https://linkedin.com/in/gregorius-ryan-92525b1b8" class="btn btn--ghost" target="_blank" rel="noopener">LinkedIn ↗</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <p>Gregorius Ryan — Database Administrator · Tangerang / Jakarta, Indonesia</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
